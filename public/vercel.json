@@ -1,0 +1,9 @@
+{
+    "redirects": [
+        {
+            "source": "/(.*)",
+            "destination": "https://fishingcat3.com",
+            "permanent": true
+        }
+    ]
+}

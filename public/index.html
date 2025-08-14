@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>fishingcat</title>
+        <style>
+            :root {
+                color-scheme: light dark;
+                --background-color: light-dark(#ffffff, #1d1d1d);
+                --text-color: light-dark(#151515, #e0e0e0);
+                --button-background: light-dark(#e7e7e7, #333333);
+                --button-hover-background: light-dark(#d4d4d4, #444444);
+                --button-text-color: light-dark(#333333, #e0e0e0);
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                background-color: var(--background-color);
+                color: var(--text-color);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                margin: 0;
+                transition: background-color 0.3s, color 0.3s;
+                gap: 20px;
+            }
+
+            .container {
+                width: 90%;
+                max-width: 500px;
+                text-align: left;
+                padding: 10px;
+            }
+
+            img {
+                border-radius: 10px;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+                margin-bottom: 1.5rem;
+                line-height: 1.5;
+            }
+
+            .links {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .links > * {
+                display: inline-flex;
+                justify-content: left;
+                align-items: center;
+                padding: 10px 20px;
+                text-decoration: none;
+                color: var(--button-text-color);
+                background-color: var(--button-background);
+                border-radius: 50px;
+                transition: background-color 0.3s, transform 0.2s;
+                font-weight: bold;
+                font-size: 1rem;
+
+                &:hover {
+                    background-color: var(--button-hover-background);
+                    transform: translateY(-3px);
+                }
+            }
+
+            @media (max-width: 768px) {
+                body {
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 10px;
+                }
+
+                .container {
+                    text-align: center;
+                }
+
+                .links a {
+                    justify-content: center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./IMG_0443.webp" width="151" height="201" />
+        <div class="container">
+            <h1>fishingcat</h1>
+            <p>hello! it appears that you've found my website<br />have a look at some of these links maybe<br />maybe i'll put some more stuff here later too</p>
+            <div class="links">
+                <a href="https://transitlookup.fishingcat3.com" target="_blank" rel="noopener noreferrer">Transit Lookup</a>
+                <a href="https://www.youtube.com/@fishingcat_" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="mailto:no-reply@fishingcat3.com">Email</a>
+            </div>
+        </div>
+    </body>
+</html>
