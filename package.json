@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "html-minifier-terser src/index.html -o public/index.html --collapse-whitespace --remove-comments --minify-css true --minify-js true"
+        "minify": "html-minifier-terser src/index.html -o public/index.html --collapse-whitespace --remove-comments --minify-css true --minify-js true"
     },
     "repository": {
         "type": "git",
