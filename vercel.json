@@ -1,9 +1,4 @@
 {
-    "build": {
-        "env": {
-            "NODE_ENV": "production"
-        },
-        "command": "npm run build"
-    },
+    "buildCommand": "npm run build",
     "rewrites": [{ "source": "/(.*)", "destination": "public/index.html" }]
 }
