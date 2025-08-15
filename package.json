@@ -17,8 +17,5 @@
     "bugs": {
         "url": "https://github.com/fishingcat3/portfolio/issues"
     },
-    "homepage": "https://github.com/fishingcat3/portfolio#readme",
-    "dependencies": {
-        "html-minifier-terser": "^7.2.0"
-    }
+    "homepage": "https://github.com/fishingcat3/portfolio#readme"
 }
